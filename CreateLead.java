@@ -26,7 +26,7 @@ public class CreateLead {
 		driver.findElementById("createLeadForm_firstName").sendKeys("Hari");
 		driver.findElementById("createLeadForm_lastName").sendKeys("R");
 		driver.findElementByName("submitButton").click();
-		driver.close();
+		driver.clos();
 }
 }
 
