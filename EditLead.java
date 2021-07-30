@@ -31,6 +31,7 @@ public class EditLead {
 		driver.findElementById("updateLeadForm_companyName").sendKeys("TCS");
 		driver.findElementByName("submitButton").click();
 		driver.close();
+		//driver.quit();
 }
 }
 
